@@ -1,0 +1,11 @@
+hearts.players.EasyPlayer
+hearts.players.MediumPlayer
+hearts.players.HardPlayer
+hearts.players.EasyPlayer
+Easy_Player1
+Medium_Player
+Hard_Player
+Easy_Player2
+100000
+1000
+0
