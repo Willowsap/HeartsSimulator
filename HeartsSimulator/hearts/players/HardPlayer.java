@@ -126,10 +126,6 @@ public class HardPlayer implements HeartsPlayer
     @Override
     public int lead(int playerId, ArrayList<Card> hand, GameStateViewer game) 
     {
-        /*
-         * Lead my lowest card of my fewest suit
-         */
-    	Suit lowest = findFewestSuit(hand);
         int index = 0;
         while (!Game.isLegalLead(index, hand, game.heartsBroken()))
         {
